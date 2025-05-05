@@ -5,17 +5,22 @@
 <PoetSelector :poet-names="selectedPoetNames" />
 ```
 
-![image-20250427122658607](前端链接.assets/image-20250427122658607.png)
+![image-20250427122658607](https://github.com/user-attachments/assets/d6a9af6f-da3b-4171-83f4-cd4acf7f3b85)
 
-![image-20250427122814499](前端链接.assets/image-20250427122814499.png)
 
-![image-20250427123118927](前端链接.assets/image-20250427123118927.png)
+![image-20250427122814499](https://github.com/user-attachments/assets/8449d7a7-1ad5-4e94-bb5d-713205d36c0c)
+
+
+![image-20250427123118927](https://github.com/user-attachments/assets/e14bf7ff-aa9f-4c1f-b594-eda4645d08cf)
+
 
 传入主题和情感列表动态显示  在App.vue文件中
 
-![image-20250505111343390](前端链接.assets/image-20250505111343390.png)
+![image-20250505111343390](https://github.com/user-attachments/assets/43363e07-8161-4948-9b78-71b0e6dafb3e)
 
-![image-20250505111444509](前端链接.assets/image-20250505111444509.png)
+
+![image-20250505111444509](https://github.com/user-attachments/assets/d934b5bd-26f8-4d24-b1d1-ff81caf3e8e6)
+
 
 ```vue
 <script setup>
@@ -183,7 +188,8 @@ onMounted(() => {
 </template>
 ```
 
-![image-20250505111604701](前端链接.assets/image-20250505111604701.png)
+![image-20250505111604701](https://github.com/user-attachments/assets/2ce2daba-e0ea-4ac5-be0e-00782f4acc4f)
+
 
 获取点击散点图的诗词ID
 
