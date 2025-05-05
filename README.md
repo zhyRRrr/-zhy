@@ -241,6 +241,7 @@ const handleEmotionPointClicked = (event) => {
 2. 在`onMounted`生命周期钩子中添加监听
 3. 在`onUnmounted`中移除监听（这很重要，防止内存泄漏）
 4. 通过`event.detail`获取事件传递的数据
+![image](https://github.com/user-attachments/assets/1558f7c5-f421-40c7-98eb-3a9d652fffb0)
 
 
 
