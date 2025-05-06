@@ -25,6 +25,7 @@
 传递三个列表就行，这里做了一个测试的  selectedPoetNames  selectedEmotions selectedTopics
 <PoetSelector :poet-names="selectedPoetNames"/>
 <HighlightController :emotions="selectedEmotions" :topics="selectedTopics" />**
+
 ```vue
 <script setup>
 // import Map from '@/views/map.vue'
@@ -193,8 +194,11 @@ onMounted(() => {
 
 ![image-20250505111604701](https://github.com/user-attachments/assets/2ce2daba-e0ea-4ac5-be0e-00782f4acc4f)
 
-
 获取点击散点图的诗词ID
+这里直接监听
+window.addEventListener('topic-point-clicked', handleTopicPointClicked)
+window.addEventListener('emotion-point-clicked', handleEmotionPointClicked)
+这两个方法，获取诗歌ID
 
 ```vue
 <script setup>
@@ -244,7 +248,7 @@ const handleEmotionPointClicked = (event) => {
 2. 在`onMounted`生命周期钩子中添加监听
 3. 在`onUnmounted`中移除监听（这很重要，防止内存泄漏）
 4. 通过`event.detail`获取事件传递的数据
-![image](https://github.com/user-attachments/assets/1558f7c5-f421-40c7-98eb-3a9d652fffb0)
+   ![image](https://github.com/user-attachments/assets/1558f7c5-f421-40c7-98eb-3a9d652fffb0)
 
 
 
