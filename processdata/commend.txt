@@ -1,0 +1,5 @@
+python emotion/emotion_visualization.py --n_neighbors 3 --min_dist 2.0 --spread 4.0 --scale 3.0 --point_size 15 --point_alpha 0.7 --jitter 0.03 --boundary_alpha 0.04 --expand_factor 0.4 --padding 0.2 --smoothness 0.6 --color_scheme Set1
+python emotion/emotion_visualization.py --n_neighbors 3 --min_dist 2.0 --spread 4.0 --scale 3.0 --point_size 15 --point_alpha 0.7 --jitter 0.03 --boundary_alpha 0.04 --expand_factor 0.4 --padding 0.2 --smoothness 0.6 --color_scheme Set1
+python topic_clustering.py
+python lda_visualization/topic_clustering.py --n_neighbors 3 --min_dist 2.0 --spread 4.0 --scale 3.0 --n_clusters 8 --output topic_clusters_interactive.png
+python topic_clustering.py --input="../../processdata/topics_probabilities.csv" --n_neighbors 3 --min_dist 2.0 --spread 4.0 --scale 3.0 --min_cluster_size 80 --min_samples 15 --point_size 15 --point_alpha 0.7 --jitter 0.03 --boundary_alpha 0.04 --expand_factor 0.4 --padding 0.2 --smoothness 0.6 --color_scheme Set1
