@@ -1,0 +1,21 @@
+spring:
+  #数据库连接信息
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/lunwen
+    username: root
+    password: 123456
+  #文件上传配置
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
+  application:
+    name: data-visualization-mingqingpoets
+#Mybatis配置
+mybatis:
+  configuration:
+    # 配置mybatis的日志，指定输出到控制台
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    # 开启mybatis的驼峰命名自动映射开关
+    map-underscore-to-camel-case: true
