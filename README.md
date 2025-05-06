@@ -21,11 +21,10 @@
 
 ![image-20250505111444509](https://github.com/user-attachments/assets/d934b5bd-26f8-4d24-b1d1-ff81caf3e8e6)
 
-下边是app.vue文件
+**下边是app.vue文件
 传递三个列表就行，这里做了一个测试的  selectedPoetNames  selectedEmotions selectedTopics
 <PoetSelector :poet-names="selectedPoetNames"/>
-<HighlightController :emotions="selectedEmotions" :topics="selectedTopics" />
-
+<HighlightController :emotions="selectedEmotions" :topics="selectedTopics" />**
 ```vue
 <script setup>
 // import Map from '@/views/map.vue'
